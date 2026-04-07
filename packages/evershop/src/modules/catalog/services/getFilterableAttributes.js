@@ -70,5 +70,28 @@ export const getFilterableAttributes = async (categoryId) => {
     }
   }
 
+  const attributePriority = {
+    goal: 1,
+    diet_type: 2,
+    protein_level: 3
+  };
+
+  attributes.sort((a, b) => {
+    const aPriority = attributePriority[a.attributeCode] || 999;
+    const bPriority = attributePriority[b.attributeCode] || 999;
+
+    if (aPriority !== bPriority) {
+      return aPriority - bPriority;
+    }
+
+    return a.attributeName.localeCompare(b.attributeName);
+  });
+
+  attributes.forEach((attribute) => {
+    attribute.options.sort((a, b) =>
+      a.optionText.localeCompare(b.optionText)
+    );
+  });
+
   return attributes;
 };

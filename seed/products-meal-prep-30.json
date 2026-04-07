@@ -1,0 +1,2018 @@
+[
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "FLB-001",
+    "name": "Fat Loss Box - Grilled Chicken & Quinoa",
+    "url_key": "fat-loss-box-grilled-chicken-quinoa",
+    "price": 89000,
+    "weight": 450,
+    "meta_title": "Fat Loss Box - Grilled Chicken & Quinoa",
+    "meta_description": "Lean grilled chicken with quinoa and greens for calorie-conscious eating.",
+    "meta_keywords": "fat loss, chicken, quinoa, healthy meal prep",
+    "description": [
+      {
+        "id": "r__flb001",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__flb001",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__flb001",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "Tender grilled chicken breast served with fluffy quinoa and crisp mixed greens for a clean, satisfying plate. This Fat Loss favorite delivers steady protein, smart carbs, and fiber to keep you full while staying on track with calorie goals."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 150,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "fat-loss"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Fat Loss"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Omnivore"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "FLB-002",
+    "name": "Fat Loss Box - Tuna Avocado Salad",
+    "url_key": "fat-loss-box-tuna-avocado-salad",
+    "price": 92000,
+    "weight": 420,
+    "meta_title": "Fat Loss Box - Tuna Avocado Salad",
+    "meta_description": "Tuna, avocado, and fresh vegetables for balanced fats and protein.",
+    "meta_keywords": "fat loss, tuna, avocado, salad box",
+    "description": [
+      {
+        "id": "r__flb002",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__flb002",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__flb002",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "Flaky tuna, creamy avocado, and crunchy fresh vegetables come together in a bright, refreshing salad bowl. It is a light yet filling Fat Loss option that supports clean eating with quality fats, lean protein, and balanced portions."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 140,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "fat-loss"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Fat Loss"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Pescatarian"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "FLB-003",
+    "name": "Fat Loss Box - Tofu Veggie Protein",
+    "url_key": "fat-loss-box-tofu-veggie-protein",
+    "price": 89000,
+    "weight": 430,
+    "meta_title": "Fat Loss Box - Tofu Veggie Protein",
+    "meta_description": "Plant-based tofu with steamed vegetables and light seasoning.",
+    "meta_keywords": "fat loss, tofu, vegan, meal prep",
+    "description": [
+      {
+        "id": "r__flb003",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__flb003",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__flb003",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "A colorful vegan box featuring seasoned tofu, broccoli, and carrots for a wholesome plant-based meal. Crafted for Fat Loss, it keeps calories moderate while maintaining reliable protein and micronutrient intake."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 130,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "fat-loss"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Fat Loss"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Vegan"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "FLB-004",
+    "name": "Fat Loss Box - Turkey Brown Rice",
+    "url_key": "fat-loss-box-turkey-brown-rice",
+    "price": 95000,
+    "weight": 460,
+    "meta_title": "Fat Loss Box - Turkey Brown Rice",
+    "meta_description": "Lean turkey with brown rice and seasonal vegetables.",
+    "meta_keywords": "fat loss, turkey, brown rice",
+    "description": [
+      {
+        "id": "r__flb004",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__flb004",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__flb004",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "Lean turkey slices, measured brown rice, and fiber-rich vegetables create a practical, balanced meal prep choice. This box helps with weight-management consistency by combining high satiety and controlled energy intake."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 120,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "fat-loss"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Fat Loss"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Omnivore"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "FLB-005",
+    "name": "Fat Loss Box - Shrimp Zucchini Noodle",
+    "url_key": "fat-loss-box-shrimp-zucchini-noodle",
+    "price": 97000,
+    "weight": 410,
+    "meta_title": "Fat Loss Box - Shrimp Zucchini Noodle",
+    "meta_description": "Low-carb zucchini noodles with shrimp and light garlic sauce.",
+    "meta_keywords": "fat loss, shrimp, low carb",
+    "description": [
+      {
+        "id": "r__flb005",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__flb005",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__flb005",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "Juicy shrimp paired with zucchini noodles gives you a flavorful low-carb plate without feeling heavy. Perfect for Fat Loss dinners, it supports calorie control while still delivering protein and freshness."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 120,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "fat-loss"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Fat Loss"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Pescatarian"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "FLB-006",
+    "name": "Fat Loss Box - Lean Beef Broccoli",
+    "url_key": "fat-loss-box-lean-beef-broccoli",
+    "price": 99000,
+    "weight": 470,
+    "meta_title": "Fat Loss Box - Lean Beef Broccoli",
+    "meta_description": "Lean beef strips with broccoli and controlled carb portion.",
+    "meta_keywords": "fat loss, beef, broccoli",
+    "description": [
+      {
+        "id": "r__flb006",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__flb006",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__flb006",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "Lean beef and broccoli in a savory sauce provide bold taste with a disciplined portion size. Built for Fat Loss, this meal emphasizes satiety and protein while keeping calories in check."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 110,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "fat-loss"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/1211887/pexels-photo-1211887.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Fat Loss"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Omnivore"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "FLB-007",
+    "name": "Fat Loss Box - Egg White Breakfast",
+    "url_key": "fat-loss-box-egg-white-breakfast",
+    "price": 89000,
+    "weight": 390,
+    "meta_title": "Fat Loss Box - Egg White Breakfast",
+    "meta_description": "Egg white omelet box with roasted vegetables and sweet potato.",
+    "meta_keywords": "fat loss, breakfast box, egg white",
+    "description": [
+      {
+        "id": "r__flb007",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__flb007",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__flb007",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "A protein-forward breakfast featuring fluffy egg whites, vegetables, and a modest serving of complex carbs. It is designed to start your day light and energized while supporting Fat Loss routines."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 125,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "fat-loss"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Fat Loss"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Vegetarian"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "FLB-008",
+    "name": "Fat Loss Box - Salmon Greens",
+    "url_key": "fat-loss-box-salmon-greens",
+    "price": 99000,
+    "weight": 430,
+    "meta_title": "Fat Loss Box - Salmon Greens",
+    "meta_description": "Salmon with spinach and mixed greens for omega-3 support.",
+    "meta_keywords": "fat loss, salmon, omega 3",
+    "description": [
+      {
+        "id": "r__flb008",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__flb008",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__flb008",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "Delicate salmon fillet on leafy greens with a zesty lemon finish for a clean and elegant meal. This Fat Loss box delivers nutrient density, healthy fats, and satisfying protein in a lighter format."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 105,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "fat-loss"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/257816/pexels-photo-257816.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Fat Loss"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Pescatarian"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "FLB-009",
+    "name": "Fat Loss Box - Chicken Teriyaki Lite",
+    "url_key": "fat-loss-box-chicken-teriyaki-lite",
+    "price": 94000,
+    "weight": 440,
+    "meta_title": "Fat Loss Box - Chicken Teriyaki Lite",
+    "meta_description": "Reduced-sugar teriyaki chicken with vegetables and rice.",
+    "meta_keywords": "fat loss, teriyaki, chicken",
+    "description": [
+      {
+        "id": "r__flb009",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__flb009",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__flb009",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "Enjoy classic teriyaki flavor in a lighter profile with reduced sugar sauce and balanced macros. It is a convenient Fat Loss choice when you want comfort taste without derailing nutrition targets."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 115,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "fat-loss"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Fat Loss"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Omnivore"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "FLB-010",
+    "name": "Fat Loss Box - Mediterranean Chickpea",
+    "url_key": "fat-loss-box-mediterranean-chickpea",
+    "price": 91000,
+    "weight": 420,
+    "meta_title": "Fat Loss Box - Mediterranean Chickpea",
+    "meta_description": "Mediterranean-style chickpea box with herbs and vegetables.",
+    "meta_keywords": "fat loss, chickpea, mediterranean",
+    "description": [
+      {
+        "id": "r__flb010",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__flb010",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__flb010",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "Mediterranean-inspired chickpeas with olive oil, cucumber, tomato, and herbs bring bright flavor and texture. This vegan Fat Loss meal offers strong satiety through fiber, plant protein, and balanced fats."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 125,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "fat-loss"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Fat Loss"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Vegan"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "FLB-011",
+    "name": "Fat Loss Box - Yogurt Berry Fit",
+    "url_key": "fat-loss-box-yogurt-berry-fit",
+    "price": 89000,
+    "weight": 350,
+    "meta_title": "Fat Loss Box - Yogurt Berry Fit",
+    "meta_description": "Greek yogurt, berries, and chia for a light macro-friendly meal.",
+    "meta_keywords": "fat loss, yogurt, berries",
+    "description": [
+      {
+        "id": "r__flb011",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__flb011",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__flb011",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "A refreshing yogurt and berry bowl with creamy texture, natural sweetness, and probiotic goodness. Designed as a lighter Fat Loss option, it delivers moderate protein and clean energy for busy days."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 130,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "fat-loss",
+      "new-arrivals"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Fat Loss"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Vegetarian"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "Medium"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "FLB-012",
+    "name": "Fat Loss Box - Low-Carb Bento",
+    "url_key": "fat-loss-box-low-carb-bento",
+    "price": 95000,
+    "weight": 430,
+    "meta_title": "Fat Loss Box - Low-Carb Bento",
+    "meta_description": "Low-carb bento with lean protein and roasted vegetables.",
+    "meta_keywords": "fat loss, low carb, bento",
+    "description": [
+      {
+        "id": "r__flb012",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__flb012",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__flb012",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "A low-carb bento built with lean protein, healthy fats, and seasonal roasted vegetables for dependable balance. Great for Fat Loss phases when you need a convenient meal with structure and flavor."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 120,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "fat-loss",
+      "new-arrivals"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/262947/pexels-photo-262947.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Fat Loss"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Omnivore"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "Medium"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "MGB-001",
+    "name": "Muscle Gain Box - Double Chicken Rice",
+    "url_key": "muscle-gain-box-double-chicken-rice",
+    "price": 119000,
+    "weight": 560,
+    "meta_title": "Muscle Gain Box - Double Chicken Rice",
+    "meta_description": "Double chicken breast with rice and vegetables for high protein intake.",
+    "meta_keywords": "muscle gain, chicken, rice, high protein",
+    "description": [
+      {
+        "id": "r__mgb001",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__mgb001",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__mgb001",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "A high-volume Muscle Gain meal with double chicken serving and performance-friendly carbs. It supports recovery after training and helps you hit daily protein and calorie goals with ease."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 150,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "muscle-gain"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Muscle Gain"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Omnivore"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "MGB-002",
+    "name": "Muscle Gain Box - Beef Steak Power",
+    "url_key": "muscle-gain-box-beef-steak-power",
+    "price": 129000,
+    "weight": 580,
+    "meta_title": "Muscle Gain Box - Beef Steak Power",
+    "meta_description": "Beef steak with potatoes and vegetables for strength-focused nutrition.",
+    "meta_keywords": "muscle gain, beef, steak",
+    "description": [
+      {
+        "id": "r__mgb002",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__mgb002",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__mgb002",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "Protein-dense beef paired with complex carbs gives you the fuel needed for demanding training cycles. This Muscle Gain box is built to support strength progress, recovery, and consistent intake."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 120,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "muscle-gain"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/1552635/pexels-photo-1552635.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Muscle Gain"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Omnivore"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "MGB-003",
+    "name": "Muscle Gain Box - Salmon Sweet Potato",
+    "url_key": "muscle-gain-box-salmon-sweet-potato",
+    "price": 125000,
+    "weight": 540,
+    "meta_title": "Muscle Gain Box - Salmon Sweet Potato",
+    "meta_description": "Salmon with sweet potato and greens for quality fats and carbs.",
+    "meta_keywords": "muscle gain, salmon, sweet potato",
+    "description": [
+      {
+        "id": "r__mgb003",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__mgb003",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__mgb003",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "Omega-3 rich salmon and complex carbohydrates create a premium Muscle Gain combination. Expect steady energy, quality protein, and nutrition that fits both workout and rest days."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 130,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "muscle-gain"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/1640770/pexels-photo-1640770.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Muscle Gain"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Pescatarian"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "MGB-004",
+    "name": "Muscle Gain Box - Turkey Pasta Protein",
+    "url_key": "muscle-gain-box-turkey-pasta-protein",
+    "price": 119000,
+    "weight": 600,
+    "meta_title": "Muscle Gain Box - Turkey Pasta Protein",
+    "meta_description": "Wholegrain pasta with turkey and light tomato sauce.",
+    "meta_keywords": "muscle gain, turkey, pasta",
+    "description": [
+      {
+        "id": "r__mgb004",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__mgb004",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__mgb004",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "Turkey mince and wholegrain pasta deliver a higher-carb profile tailored for bulking cycles. This Muscle Gain meal helps increase total intake while keeping ingredients clean and purposeful."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 120,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "muscle-gain"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Muscle Gain"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Omnivore"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "MGB-005",
+    "name": "Muscle Gain Box - Peanut Butter Oat",
+    "url_key": "muscle-gain-box-peanut-butter-oat",
+    "price": 109000,
+    "weight": 500,
+    "meta_title": "Muscle Gain Box - Peanut Butter Oat",
+    "meta_description": "Energy-dense oats with peanut butter and banana.",
+    "meta_keywords": "muscle gain, oats, peanut butter",
+    "description": [
+      {
+        "id": "r__mgb005",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__mgb005",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__mgb005",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "Hearty oats, peanut butter, and fruit offer a convenient calorie boost for Muscle Gain phases. It is ideal for busy schedules when you need dense nutrition in a quick, enjoyable format."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 140,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "muscle-gain"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Muscle Gain"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Vegetarian"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "Medium"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "MGB-006",
+    "name": "Muscle Gain Box - Tuna Rice Power",
+    "url_key": "muscle-gain-box-tuna-rice-power",
+    "price": 115000,
+    "weight": 560,
+    "meta_title": "Muscle Gain Box - Tuna Rice Power",
+    "meta_description": "Tuna and rice combination for affordable high-protein intake.",
+    "meta_keywords": "muscle gain, tuna, rice",
+    "description": [
+      {
+        "id": "r__mgb006",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__mgb006",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__mgb006",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "A simple and effective tuna-rice box focused on high protein with controlled fat levels. This Muscle Gain staple keeps your meal plan efficient, repeatable, and easy to track."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 145,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "muscle-gain"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Muscle Gain"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Pescatarian"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "MGB-007",
+    "name": "Muscle Gain Box - Tofu Tempeh Gain",
+    "url_key": "muscle-gain-box-tofu-tempeh-gain",
+    "price": 112000,
+    "weight": 520,
+    "meta_title": "Muscle Gain Box - Tofu Tempeh Gain",
+    "meta_description": "Plant-based muscle gain box with tofu, tempeh, and grains.",
+    "meta_keywords": "muscle gain, tofu, tempeh, plant based",
+    "description": [
+      {
+        "id": "r__mgb007",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__mgb007",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__mgb007",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "A vegan Muscle Gain option powered by tofu and tempeh with balanced carbohydrates for training support. It delivers strong plant protein and sustained energy for active lifestyles."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 120,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "muscle-gain"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Muscle Gain"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Vegan"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "MGB-008",
+    "name": "Muscle Gain Box - Greek Yogurt Granola",
+    "url_key": "muscle-gain-box-greek-yogurt-granola",
+    "price": 109000,
+    "weight": 480,
+    "meta_title": "Muscle Gain Box - Greek Yogurt Granola",
+    "meta_description": "Protein-rich yogurt bowl with granola, nuts, and fruit.",
+    "meta_keywords": "muscle gain, yogurt, granola",
+    "description": [
+      {
+        "id": "r__mgb008",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__mgb008",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__mgb008",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "Greek yogurt and granola provide a practical post-workout combination of dairy protein and quick carbs. This Muscle Gain meal is convenient, tasty, and ideal for recovery windows."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 135,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "muscle-gain"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/70497/pexels-photo-70497.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Muscle Gain"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Vegetarian"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "MGB-009",
+    "name": "Muscle Gain Box - Chicken Avocado",
+    "url_key": "muscle-gain-box-chicken-avocado",
+    "price": 122000,
+    "weight": 550,
+    "meta_title": "Muscle Gain Box - Chicken Avocado",
+    "meta_description": "Chicken and avocado with rice for high-protein balanced calories.",
+    "meta_keywords": "muscle gain, chicken, avocado",
+    "description": [
+      {
+        "id": "r__mgb009",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__mgb009",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__mgb009",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "Chicken and avocado combine lean protein with healthy fats for balanced lean-bulking nutrition. This Muscle Gain box keeps meals satisfying while supporting consistent strength progress."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 125,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "muscle-gain",
+      "new-arrivals"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/1211887/pexels-photo-1211887.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Muscle Gain"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Omnivore"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "MGB-010",
+    "name": "Muscle Gain Box - High-Protein Bento",
+    "url_key": "muscle-gain-box-high-protein-bento",
+    "price": 129000,
+    "weight": 600,
+    "meta_title": "Muscle Gain Box - High-Protein Bento",
+    "meta_description": "High-protein bento with mixed protein sources and complex carbs.",
+    "meta_keywords": "muscle gain, bento, high protein",
+    "description": [
+      {
+        "id": "r__mgb010",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__mgb010",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__mgb010",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "A comprehensive high-protein bento with substantial serving size and balanced macros for growth phases. It is built to simplify Muscle Gain meal planning without sacrificing flavor."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 115,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "muscle-gain",
+      "new-arrivals"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/1279330/pexels-photo-1279330.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Muscle Gain"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Omnivore"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "BAL-001",
+    "name": "Balanced Box - Chicken Veggie",
+    "url_key": "balanced-box-chicken-veggie",
+    "price": 109000,
+    "weight": 500,
+    "meta_title": "Balanced Box - Chicken Veggie",
+    "meta_description": "Balanced chicken meal with vegetables and rice.",
+    "meta_keywords": "balanced meal, chicken, vegetables",
+    "description": [
+      {
+        "id": "r__bal001",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__bal001",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__bal001",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "An everyday Balanced meal featuring moderate calories, reliable protein, and wholesome ingredients. Perfect for maintenance goals when you want consistency, taste, and convenience in one box."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 180,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "balanced"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/257816/pexels-photo-257816.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Balanced"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Omnivore"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "BAL-002",
+    "name": "Balanced Box - Salmon Brown Rice",
+    "url_key": "balanced-box-salmon-brown-rice",
+    "price": 115000,
+    "weight": 510,
+    "meta_title": "Balanced Box - Salmon Brown Rice",
+    "meta_description": "Balanced salmon meal with brown rice and greens.",
+    "meta_keywords": "balanced, salmon, brown rice",
+    "description": [
+      {
+        "id": "r__bal002",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__bal002",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__bal002",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "Nutrient-rich salmon, complex carbs, and greens deliver steady daily energy with clean flavor. This Balanced box suits maintenance routines and active lifestyles that value quality nutrition."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 160,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "balanced"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/1640772/pexels-photo-1640772.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Balanced"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Pescatarian"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "BAL-003",
+    "name": "Balanced Box - Veggie Delight",
+    "url_key": "balanced-box-veggie-delight",
+    "price": 105000,
+    "weight": 470,
+    "meta_title": "Balanced Box - Veggie Delight",
+    "meta_description": "Balanced vegetarian meal with grains, beans, and vegetables.",
+    "meta_keywords": "balanced, vegetarian, healthy",
+    "description": [
+      {
+        "id": "r__bal003",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__bal003",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__bal003",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "A colorful vegetarian bowl with a complete nutrition profile and moderate calorie density. This Balanced choice is ideal for day-to-day eating with comfort, variety, and consistency."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 170,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "balanced"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/1092730/pexels-photo-1092730.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Balanced"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Vegan"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "Medium"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "BAL-004",
+    "name": "Balanced Box - Tuna Wholegrain",
+    "url_key": "balanced-box-tuna-wholegrain",
+    "price": 109000,
+    "weight": 500,
+    "meta_title": "Balanced Box - Tuna Wholegrain",
+    "meta_description": "Tuna with wholegrain rice and mixed vegetables.",
+    "meta_keywords": "balanced, tuna, wholegrain",
+    "description": [
+      {
+        "id": "r__bal004",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__bal004",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__bal004",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "A practical all-round tuna meal designed for students and office workers with busy schedules. It provides stable daily nutrition, balanced macros, and easy repeatability across the week."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 160,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "balanced"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/958545/pexels-photo-958545.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Balanced"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Pescatarian"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "BAL-005",
+    "name": "Balanced Box - Beef & Veg",
+    "url_key": "balanced-box-beef-veg",
+    "price": 112000,
+    "weight": 520,
+    "meta_title": "Balanced Box - Beef & Veg",
+    "meta_description": "Beef and vegetables with moderate carbs for everyday balance.",
+    "meta_keywords": "balanced, beef, vegetables",
+    "description": [
+      {
+        "id": "r__bal005",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__bal005",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__bal005",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "Moderate-carb beef with vegetables offers a satisfying profile for maintenance and active routines. This Balanced box is hearty enough for lunch or dinner while staying nutrition-focused."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 155,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "balanced"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/262947/pexels-photo-262947.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Balanced"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Omnivore"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "High"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "BAL-006",
+    "name": "Balanced Box - Egg & Avocado",
+    "url_key": "balanced-box-egg-avocado",
+    "price": 105000,
+    "weight": 460,
+    "meta_title": "Balanced Box - Egg & Avocado",
+    "meta_description": "Egg and avocado bowl with mixed grains.",
+    "meta_keywords": "balanced, egg, avocado",
+    "description": [
+      {
+        "id": "r__bal006",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__bal006",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__bal006",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "Egg and avocado bring comforting flavor with quality fats and protein in a well-rounded format. A Balanced pick that works smoothly for breakfast, brunch, or a lighter lunch."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 165,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "balanced"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/699953/pexels-photo-699953.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Balanced"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Vegetarian"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "Medium"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "BAL-007",
+    "name": "Balanced Box - Shrimp Quinoa",
+    "url_key": "balanced-box-shrimp-quinoa",
+    "price": 115000,
+    "weight": 500,
+    "meta_title": "Balanced Box - Shrimp Quinoa",
+    "meta_description": "Shrimp and quinoa with fresh vegetables for balanced macros.",
+    "meta_keywords": "balanced, shrimp, quinoa",
+    "description": [
+      {
+        "id": "r__bal007",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__bal007",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__bal007",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "Shrimp and quinoa create a light yet filling seafood meal with fresh texture and clean taste. This Balanced box supports sustained energy and satiety without feeling heavy."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 150,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "balanced",
+      "new-arrivals"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/1552635/pexels-photo-1552635.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Balanced"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Pescatarian"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "Medium"
+      }
+    ]
+  },
+  {
+    "type": "simple",
+    "visibility": true,
+    "status": true,
+    "sku": "BAL-008",
+    "name": "Balanced Box - Family Bento",
+    "url_key": "balanced-box-family-bento",
+    "price": 109000,
+    "weight": 540,
+    "meta_title": "Balanced Box - Family Bento",
+    "meta_description": "Balanced bento suitable for flexible daily meals.",
+    "meta_keywords": "balanced, family bento, healthy meal",
+    "description": [
+      {
+        "id": "r__bal008",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__bal008",
+            "data": {
+              "time": 1729900000000,
+              "blocks": [
+                {
+                  "id": "b__bal008",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "A versatile family-style bento built for convenient daily ordering and broad taste preferences. This Balanced option combines approachable flavor, practical portions, and dependable nutrition."
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "qty": 170,
+    "manage_stock": true,
+    "stock_availability": true,
+    "collections": [
+      "homepage",
+      "balanced",
+      "new-arrivals"
+    ],
+    "category": "goalbox-meals",
+    "images": [
+      {
+        "url": "https://images.pexels.com/photos/1640770/pexels-photo-1640770.jpeg",
+        "isMain": true
+      }
+    ],
+    "attributes": [
+      {
+        "attribute_code": "goal",
+        "value": "Balanced"
+      },
+      {
+        "attribute_code": "diet_type",
+        "value": "Omnivore"
+      },
+      {
+        "attribute_code": "protein_level",
+        "value": "Medium"
+      }
+    ]
+  }
+]

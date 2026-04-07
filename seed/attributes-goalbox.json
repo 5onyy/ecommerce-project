@@ -1,0 +1,87 @@
+[
+  {
+    "attribute_code": "color",
+    "attribute_name": "Color",
+    "type": "select",
+    "is_required": 0,
+    "display_on_frontend": 0,
+    "sort_order": 10,
+    "is_filterable": 0,
+    "groups": [],
+    "options": [
+      { "option_text": "Black" },
+      { "option_text": "White" },
+      { "option_text": "Red" },
+      { "option_text": "Blue" },
+      { "option_text": "Green" },
+      { "option_text": "Yellow" },
+      { "option_text": "Pink" },
+      { "option_text": "Gray" },
+      { "option_text": "Navy" },
+      { "option_text": "Beige" }
+    ]
+  },
+  {
+    "attribute_code": "size",
+    "attribute_name": "Size",
+    "type": "select",
+    "is_required": 0,
+    "display_on_frontend": 0,
+    "sort_order": 20,
+    "is_filterable": 0,
+    "groups": [],
+    "options": [
+      { "option_text": "XS" },
+      { "option_text": "S" },
+      { "option_text": "M" },
+      { "option_text": "L" },
+      { "option_text": "XL" },
+      { "option_text": "XXL" }
+    ]
+  },
+  {
+    "attribute_code": "goal",
+    "attribute_name": "Goal",
+    "type": "select",
+    "is_required": 1,
+    "display_on_frontend": 1,
+    "sort_order": 30,
+    "is_filterable": 1,
+    "groups": [],
+    "options": [
+      { "option_text": "Fat Loss" },
+      { "option_text": "Muscle Gain" },
+      { "option_text": "Balanced" }
+    ]
+  },
+  {
+    "attribute_code": "diet_type",
+    "attribute_name": "Diet Type",
+    "type": "select",
+    "is_required": 1,
+    "display_on_frontend": 1,
+    "sort_order": 40,
+    "is_filterable": 1,
+    "groups": [],
+    "options": [
+      { "option_text": "Omnivore" },
+      { "option_text": "Pescatarian" },
+      { "option_text": "Vegetarian" },
+      { "option_text": "Vegan" }
+    ]
+  },
+  {
+    "attribute_code": "protein_level",
+    "attribute_name": "Protein Level",
+    "type": "select",
+    "is_required": 1,
+    "display_on_frontend": 1,
+    "sort_order": 50,
+    "is_filterable": 1,
+    "groups": [],
+    "options": [
+      { "option_text": "Medium" },
+      { "option_text": "High" }
+    ]
+  }
+]

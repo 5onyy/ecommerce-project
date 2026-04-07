@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   app:
     image: evershop/evershop:latest
@@ -16,13 +14,30 @@ services:
       - database
     ports:
       - 3000:3000
-  
+    volumes:
+      - ./config:/app/config:ro
+      - ./seed/categories.json:/app/node_modules/@evershop/evershop/dist/bin/seed/data/categories.json:ro
+      - ./seed/collections.json:/app/node_modules/@evershop/evershop/dist/bin/seed/data/collections.json:ro
+      - ./seed/attributes-goalbox.json:/app/node_modules/@evershop/evershop/dist/bin/seed/data/attributes.json:ro
+      - ./seed/pages-goalbox.json:/app/node_modules/@evershop/evershop/dist/bin/seed/data/pages.json:ro
+      - ./seed/products-meal-prep-30.json:/app/node_modules/@evershop/evershop/dist/bin/seed/data/products.json:ro
+      - ./seed/widgets-goalbox.json:/app/node_modules/@evershop/evershop/dist/bin/seed/data/widgets.json:ro
+      - ./seed/images:/app/media/catalog/custom:ro
+      - ./seed/images/about-hero-goalbox-v2.jpg:/app/public/images/about-hero-goalbox-v2.jpg:ro
+      - ./seed/images/about-kitchen-team-goalbox-v2.jpg:/app/public/images/about-kitchen-team-goalbox-v2.jpg:ro
+      - ./seed/images/about-macro-detail-goalbox-v2.jpg:/app/public/images/about-macro-detail-goalbox-v2.jpg:ro
+      - ./seed/images/about-lifestyle-cta-goalbox-v2.jpg:/app/public/images/about-lifestyle-cta-goalbox-v2.jpg:ro
+      - ./seed/images/branding:/app/public/images/branding:ro
+      - ./seed/images/branding/goalbox-favicon-set.jpg:/app/public/favicon.ico:ro
+      - ./overrides/admin-branding/Logo.js:/app/node_modules/@evershop/evershop/dist/modules/cms/pages/admin/all/Logo.js:ro
+
   #The postgres database: 
   database:
     image: postgres:16
     restart: unless-stopped
     volumes:
       - postgres-data:/var/lib/postgresql/data
+      - ./seed/db-init:/docker-entrypoint-initdb.d:ro
     environment:
       POSTGRES_PASSWORD: postgres
       POSTGRES_USER: postgres

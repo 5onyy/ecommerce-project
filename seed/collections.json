@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Featured",
+    "code": "homepage",
+    "description": [{"id":"r__feat","columns":[{"size":1,"id":"c__feat","data":{"time":1743984000000,"blocks":[{"id":"b__feat","type":"paragraph","data":{"text":"Featured GoalBox picks — our most popular meal boxes across all three goals."}}],"version":"2.31.0"}}],"size":1,"className":"md:grid-cols-1"}]
+  },
+  {
+    "name": "Fat Loss",
+    "code": "fat-loss",
+    "description": [{"id":"r__flc","columns":[{"size":1,"id":"c__flc","data":{"time":1743984000000,"blocks":[{"id":"b__flc","type":"paragraph","data":{"text":"All Fat Loss Box options — calorie-controlled meals to support your weight management goal."}}],"version":"2.31.0"}}],"size":1,"className":"md:grid-cols-1"}]
+  },
+  {
+    "name": "Muscle Gain",
+    "code": "muscle-gain",
+    "description": [{"id":"r__mgc","columns":[{"size":1,"id":"c__mgc","data":{"time":1743984000000,"blocks":[{"id":"b__mgc","type":"paragraph","data":{"text":"All Muscle Gain Box options — high-protein, high-calorie meals for serious training support."}}],"version":"2.31.0"}}],"size":1,"className":"md:grid-cols-1"}]
+  },
+  {
+    "name": "Balanced",
+    "code": "balanced",
+    "description": [{"id":"r__blc","columns":[{"size":1,"id":"c__blc","data":{"time":1743984000000,"blocks":[{"id":"b__blc","type":"paragraph","data":{"text":"All Balanced Box options — everyday macro-balanced meals for a consistent healthy lifestyle."}}],"version":"2.31.0"}}],"size":1,"className":"md:grid-cols-1"}]
+  },
+  {
+    "name": "New Arrivals",
+    "code": "new-arrivals",
+    "description": [{"id":"r__new","columns":[{"size":1,"id":"c__new","data":{"time":1743984000000,"blocks":[{"id":"b__new","type":"paragraph","data":{"text":"Newest additions to the GoalBox menu — freshly added meal options across all goals."}}],"version":"2.31.0"}}],"size":1,"className":"md:grid-cols-1"}]
+  }
+]

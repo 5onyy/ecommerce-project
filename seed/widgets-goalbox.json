@@ -1,0 +1,140 @@
+[
+  {
+    "name": "Main menu",
+    "type": "basic_menu",
+    "route": ["all"],
+    "area": ["headerMiddleLeft"],
+    "sort_order": 1,
+    "settings": {
+      "menus": [
+        {
+          "id": "hanhk3km0m8nt2b",
+          "url": "#",
+          "name": "Shop",
+          "type": "custom",
+          "uuid": "#",
+          "children": [
+            {
+              "id": "hanhk3km0m8nt2c",
+              "url": "/goalbox-meals",
+              "name": "GoalBox Meals",
+              "type": "custom",
+              "uuid": "/goalbox-meals"
+            }
+          ]
+        },
+        {
+          "id": "hanhk3km0m8nt2e",
+          "url": "/page/about-us",
+          "name": "About us",
+          "type": "custom",
+          "uuid": "/page/about-us",
+          "children": []
+        }
+      ],
+      "isMain": "1",
+      "className": ""
+    },
+    "status": true
+  },
+  {
+    "name": "Homepage Slideshow",
+    "type": "simple_slider",
+    "route": ["homepage"],
+    "area": ["content"],
+    "sort_order": 5,
+    "settings": {
+      "dots": true,
+      "arrows": true,
+      "slides": [
+        {
+          "id": "slide-1",
+          "image": "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg",
+          "width": 2400,
+          "height": 1200,
+          "subText": "Goal-based meals ready in minutes with clear macros",
+          "headline": "Eat for Results with GoalBox",
+          "buttonLink": "/goalbox-meals",
+          "buttonText": "Start Your Plan",
+          "buttonColor": "#3a3a3a"
+        },
+        {
+          "id": "slide-2",
+          "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
+          "width": 2400,
+          "height": 1200,
+          "subText": "Fat Loss, Balanced, Muscle Gain - choose your nutrition goal",
+          "headline": "Healthy Meals, Delivered Daily",
+          "buttonLink": "/goalbox-meals",
+          "buttonText": "Explore Boxes",
+          "buttonColor": "#3a3a3a"
+        }
+      ],
+      "autoplay": true,
+      "fullWidth": true,
+      "heightType": "auto",
+      "autoplaySpeed": 3000
+    },
+    "status": true
+  },
+  {
+    "name": "Featured Products",
+    "type": "collection_products",
+    "route": ["homepage"],
+    "area": ["content"],
+    "sort_order": 20,
+    "settings": {
+      "count": 4,
+      "collection": "homepage"
+    },
+    "status": true
+  },
+  {
+    "name": "Fat Loss Picks",
+    "type": "collection_products",
+    "route": ["homepage"],
+    "area": ["content"],
+    "sort_order": 21,
+    "settings": {
+      "count": 8,
+      "collection": "fat-loss"
+    },
+    "status": true
+  },
+  {
+    "name": "Muscle Gain Picks",
+    "type": "collection_products",
+    "route": ["homepage"],
+    "area": ["content"],
+    "sort_order": 22,
+    "settings": {
+      "count": 8,
+      "collection": "muscle-gain"
+    },
+    "status": true
+  },
+  {
+    "name": "Balanced Picks",
+    "type": "collection_products",
+    "route": ["homepage"],
+    "area": ["content"],
+    "sort_order": 23,
+    "settings": {
+      "count": 8,
+      "collection": "balanced"
+    },
+    "status": true
+  },
+  {
+    "name": "New Arrivals",
+    "type": "collection_products",
+    "route": ["homepage"],
+    "area": ["content"],
+    "sort_order": 24,
+    "settings": {
+      "count": 6,
+      "collection": "new-arrivals"
+    },
+    "status": true
+  }
+]

@@ -24,30 +24,29 @@ export async function seedProducts(
   const dataPath = path.join(__dirname, 'data', 'products.json');
   const productsData = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
 
-  // Get color and size attribute IDs
-  const colorAttribute = await select()
-    .from('attribute')
-    .where('attribute_code', '=', 'color')
-    .load(pool);
+  // Create variant groups only when seed data uses variant_group
+  const hasVariantGroups = productsData.some((p) => p.variant_group);
+  let variantGroupIds = new Map<string, number>();
 
-  const sizeAttribute = await select()
-    .from('attribute')
-    .where('attribute_code', '=', 'size')
-    .load(pool);
+  if (hasVariantGroups) {
+    const colorAttribute = await select()
+      .from('attribute')
+      .where('attribute_code', '=', 'color')
+      .load(pool);
 
-  if (!colorAttribute || !sizeAttribute) {
-    error(
-      'Color and Size attributes must be seeded first. Run: npm run seed -- --attributes'
+    if (!colorAttribute) {
+      error(
+        'Color attribute must be seeded first when using variant_group. Run: npm run seed -- --attributes'
+      );
+      return;
+    }
+
+    variantGroupIds = await createVariantGroups(
+      productsData,
+      demoAttributeGroupId,
+      colorAttribute.attribute_id
     );
-    return;
   }
-
-  // Create variant groups
-  const variantGroupIds = await createVariantGroups(
-    productsData,
-    demoAttributeGroupId,
-    colorAttribute.attribute_id
-  );
 
   // Seed products
   info('\nSeeding products...');

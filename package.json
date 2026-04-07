@@ -1,8 +1,8 @@
 {
-  "name": "evershop",
+  "name": "goalbox",
   "version": "2.1.0",
   "type": "module",
-  "description": "A shopping cart platform with Express, React and Postgres",
+  "description": "GoalBox is a meal prep webshop built with Express, React, and Postgres",
   "workspaces": [
     "packages/*",
     "extensions/*",
@@ -25,7 +25,7 @@
     "lint": "eslint --fix --ext .js,.jsx,.ts,.tsx ./packages",
     "prepare": "husky install"
   },
-  "author": "The Nguyen (https://evershop.io)",
+  "author": "GoalBox Team",
   "license": "GNU GENERAL PUBLIC LICENSE 3.0",
   "devDependencies": {
     "@parcel/watcher": "^2.5.6",

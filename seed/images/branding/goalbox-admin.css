@@ -1,0 +1,14 @@
+/* Admin branding override */
+.admin .header .logo svg {
+  display: none !important;
+}
+
+.admin .header .logo a {
+  width: 34px !important;
+  height: 34px !important;
+  display: block !important;
+  background-image: url('/assets/images/branding/goalbox-icon-only.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}

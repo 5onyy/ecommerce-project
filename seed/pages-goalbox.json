@@ -1,0 +1,164 @@
+[
+  {
+    "status": true,
+    "url_key": "about-us",
+    "name": "About Us",
+    "content": [
+      {
+        "id": "r__about_goalbox",
+        "columns": [
+          {
+            "size": 1,
+            "id": "c__about_goalbox",
+            "data": {
+              "time": 1744040400000,
+              "blocks": [
+                {
+                  "id": "about_gb_h1",
+                  "type": "header",
+                  "data": {
+                    "text": "About GoalBox",
+                    "level": 2
+                  }
+                },
+                {
+                  "id": "about_gb_p1",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "GoalBox helps busy people eat healthier without wasting time. We design ready-to-eat meal boxes around clear goals: Fat Loss, Muscle Gain, and Balanced Living."
+                  }
+                },
+                {
+                  "id": "about_gb_img_hero",
+                  "type": "image",
+                  "data": {
+                    "file": {
+                      "url": "/assets/images/about-hero-goalbox-v2.jpg",
+                      "width": 1600,
+                      "height": 900
+                    },
+                    "caption": "GoalBox meal experience",
+                    "withBorder": false,
+                    "withBackground": false,
+                    "stretched": false
+                  }
+                },
+                {
+                  "id": "about_gb_h2_story",
+                  "type": "header",
+                  "data": {
+                    "text": "Our Story",
+                    "level": 2
+                  }
+                },
+                {
+                  "id": "about_gb_p2",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "We started GoalBox with one simple question: why is healthy eating still so hard for students, office workers, and gym-goers? Our answer is practical nutrition that is affordable, consistent, and easy to follow every day."
+                  }
+                },
+                {
+                  "id": "about_gb_img_story",
+                  "type": "image",
+                  "data": {
+                    "file": {
+                      "url": "/assets/images/about-kitchen-team-goalbox-v2.jpg",
+                      "width": 1600,
+                      "height": 900
+                    },
+                    "caption": "GoalBox team preparing meals",
+                    "withBorder": false,
+                    "withBackground": false,
+                    "stretched": false
+                  }
+                },
+                {
+                  "id": "about_gb_h2_values",
+                  "type": "header",
+                  "data": {
+                    "text": "How We Build Every Box",
+                    "level": 2
+                  }
+                },
+                {
+                  "id": "about_gb_p3",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "1) Goal-first nutrition: each box is planned for a real objective. 2) Macro clarity: calories, protein, carbs, and fats are transparent. 3) Reliable quality: fresh ingredients, strict prep workflow, and consistent portions."
+                  }
+                },
+                {
+                  "id": "about_gb_img_detail",
+                  "type": "image",
+                  "data": {
+                    "file": {
+                      "url": "/assets/images/about-macro-detail-goalbox-v2.jpg",
+                      "width": 1600,
+                      "height": 900
+                    },
+                    "caption": "Macro-focused meal planning",
+                    "withBorder": false,
+                    "withBackground": false,
+                    "stretched": false
+                  }
+                },
+                {
+                  "id": "about_gb_h2_customers",
+                  "type": "header",
+                  "data": {
+                    "text": "Who GoalBox Is For",
+                    "level": 2
+                  }
+                },
+                {
+                  "id": "about_gb_p4",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "Whether you are cutting fat, building muscle, or simply maintaining a healthier routine, GoalBox gives you a straightforward system to stay on track with less stress."
+                  }
+                },
+                {
+                  "id": "about_gb_h2_cta",
+                  "type": "header",
+                  "data": {
+                    "text": "Ready to Start?",
+                    "level": 2
+                  }
+                },
+                {
+                  "id": "about_gb_p5",
+                  "type": "paragraph",
+                  "data": {
+                    "text": "Explore our GoalBox Meals and choose a plan that matches your current target."
+                  }
+                },
+                {
+                  "id": "about_gb_img_cta",
+                  "type": "image",
+                  "data": {
+                    "file": {
+                      "url": "/assets/images/about-lifestyle-cta-goalbox-v2.jpg",
+                      "width": 1600,
+                      "height": 900
+                    },
+                    "caption": "Healthy lifestyle with GoalBox",
+                    "withBorder": false,
+                    "withBackground": false,
+                    "stretched": false
+                  }
+                }
+              ],
+              "version": "2.31.0"
+            }
+          }
+        ],
+        "size": 1,
+        "className": "md:grid-cols-1"
+      }
+    ],
+    "meta_title": "About GoalBox | Goal-based healthy meal prep",
+    "meta_keywords": "GoalBox, about us, meal prep, healthy meals, fat loss, muscle gain",
+    "meta_description": "Learn how GoalBox builds ready-to-eat meal boxes for Fat Loss, Muscle Gain, and Balanced Living with clear macros and consistent quality."
+  }
+]

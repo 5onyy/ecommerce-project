@@ -7,7 +7,7 @@ export default {
       if (storeName) {
         return storeName.value;
       } else {
-        return 'An Amazing EverShop Store';
+        return 'GoalBox';
       }
     },
     storeDescription: (setting) => {
@@ -17,17 +17,17 @@ export default {
       if (storeDescription) {
         return storeDescription.value;
       } else {
-        return 'An Amazing EverShop Store';
+        return 'Goal-based ready-to-eat healthy meals';
       }
     },
     storeLanguage: () => getConfig('shop.language', 'en'),
-    storeCurrency: () => getConfig('shop.currency', 'USD'),
+    storeCurrency: () => getConfig('shop.currency', 'VND'),
     storeTimeZone: (setting) => {
       const storeTimeZone = setting.find((s) => s.name === 'storeTimeZone');
       if (storeTimeZone) {
         return storeTimeZone.value;
       } else {
-        return 'America/New_York';
+        return 'Asia/Ho_Chi_Minh';
       }
     },
     storePhoneNumber: (setting) => {
@@ -53,7 +53,7 @@ export default {
       if (storeCountry) {
         return storeCountry.value;
       } else {
-        return 'US';
+        return 'VN';
       }
     },
     storeAddress: (setting) => {

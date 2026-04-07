@@ -25,7 +25,7 @@ export async function refreshSetting(): Promise<void> {
 }
 
 export async function getStoreName(
-  defaultValue: string = 'Evershop'
+  defaultValue: string = 'GoalBox'
 ): Promise<string> {
   return await getSetting('storeName', defaultValue);
 }
