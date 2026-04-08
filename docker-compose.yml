@@ -29,7 +29,6 @@ services:
       - ./seed/images/about-lifestyle-cta-goalbox-v2.jpg:/app/public/images/about-lifestyle-cta-goalbox-v2.jpg:ro
       - ./seed/images/branding:/app/public/images/branding:ro
       - ./seed/images/branding/goalbox-favicon-set.jpg:/app/public/favicon.ico:ro
-      - ./overrides/admin-branding/Logo.js:/app/node_modules/@evershop/evershop/dist/modules/cms/pages/admin/all/Logo.js:ro
 
   #The postgres database: 
   database:

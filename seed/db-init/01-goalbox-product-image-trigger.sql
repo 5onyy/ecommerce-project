@@ -53,7 +53,41 @@ $$;
 
 DROP TRIGGER IF EXISTS trg_goalbox_override_product_image ON product_image;
 
-CREATE TRIGGER trg_goalbox_override_product_image
-BEFORE INSERT OR UPDATE ON product_image
-FOR EACH ROW
-EXECUTE FUNCTION goalbox_override_product_image();
+CREATE OR REPLACE FUNCTION goalbox_attach_product_image_trigger()
+RETURNS event_trigger
+LANGUAGE plpgsql
+AS $$
+DECLARE
+  cmd RECORD;
+BEGIN
+  FOR cmd IN SELECT * FROM pg_event_trigger_ddl_commands()
+  LOOP
+    IF cmd.object_type = 'table' AND cmd.object_identity = 'public.product_image' THEN
+      EXECUTE 'DROP TRIGGER IF EXISTS trg_goalbox_override_product_image ON public.product_image';
+      EXECUTE 'CREATE TRIGGER trg_goalbox_override_product_image
+               BEFORE INSERT OR UPDATE ON public.product_image
+               FOR EACH ROW
+               EXECUTE FUNCTION goalbox_override_product_image()';
+    END IF;
+  END LOOP;
+END;
+$$;
+
+DROP EVENT TRIGGER IF EXISTS trg_goalbox_attach_product_image_trigger;
+
+CREATE EVENT TRIGGER trg_goalbox_attach_product_image_trigger
+ON ddl_command_end
+WHEN TAG IN ('CREATE TABLE')
+EXECUTE FUNCTION goalbox_attach_product_image_trigger();
+
+DO $$
+BEGIN
+  IF to_regclass('public.product_image') IS NOT NULL THEN
+    DROP TRIGGER IF EXISTS trg_goalbox_override_product_image ON public.product_image;
+    CREATE TRIGGER trg_goalbox_override_product_image
+    BEFORE INSERT OR UPDATE ON public.product_image
+    FOR EACH ROW
+    EXECUTE FUNCTION goalbox_override_product_image();
+  END IF;
+END;
+$$;
