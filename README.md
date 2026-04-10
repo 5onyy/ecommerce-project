@@ -13,7 +13,7 @@ Run from project root:
 
 ```powershell
 docker compose down -v
-docker compose up -d
+docker compose up -d --build
 docker compose exec app npm run seed -- --all
 ```
 
@@ -44,11 +44,12 @@ Expected: 30 products.
 
 ```powershell
 docker compose down -v
-docker compose up -d
+docker compose up -d --build
 docker compose exec app npm run seed -- --all
 ```
 
 ## Notes
 
 - Product images are mapped automatically during DB initialization.
+- App image is built from this repository, so teammates should run with `--build` after pulling new changes.
 - If you changed [seed/db-init/01-goalbox-product-image-trigger.sql](seed/db-init/01-goalbox-product-image-trigger.sql), run reset to re-apply.
