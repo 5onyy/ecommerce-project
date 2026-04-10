@@ -1,0 +1,27 @@
+{
+  "shop": {
+    "currency": "VND",
+    "language": "vi"
+  },
+  "themeConfig": {
+    "logo": {
+      "alt": "GoalBox",
+      "src": "/assets/images/branding/goalbox-logo-primary.jpg",
+      "width": 180,
+      "height": 48
+    },
+    "headTags": {
+      "links": [
+        {
+          "rel": "icon",
+          "href": "/favicon.ico",
+          "type": "image/x-icon"
+        }
+      ],
+      "metas": [],
+      "scripts": [],
+      "bases": []
+    },
+    "copyRight": "© 2026 GoalBox. All Rights Reserved."
+  }
+}
