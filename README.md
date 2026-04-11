@@ -35,7 +35,7 @@ docker compose exec app npm run user:create -- --email "admin@goalbox.vn" --pass
 ```powershell
 docker compose ps
 docker compose logs app --tail 100
-docker exec source-code-database-1 psql -U postgres -d postgres -c "SELECT COUNT(*) AS products FROM product;"
+docker compose exec database psql -U postgres -d postgres -c "SELECT COUNT(*) AS products FROM product;"
 ```
 
 Expected: 30 products.
