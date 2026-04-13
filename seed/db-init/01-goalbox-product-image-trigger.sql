@@ -40,6 +40,15 @@ BEGIN
     WHEN 'MGB-008' THEN NEW.origin_image := 'catalog/custom/mgb-008_greek-yogurt-granola.jpg';
     WHEN 'MGB-009' THEN NEW.origin_image := 'catalog/custom/mgb-009_chicken-avocado.jpg';
     WHEN 'MGB-010' THEN NEW.origin_image := 'catalog/custom/mgb-010_high-protein-bento.jpg';
+    -- Weekly bundle products
+    WHEN 'FL-3D-001' THEN NEW.origin_image := 'catalog/custom/fl-3d-001_3day-fat-loss-plan.jpg';
+    WHEN 'MG-3D-001' THEN NEW.origin_image := 'catalog/custom/mg-3d-001_3day-muscle-gain-plan.jpg';
+    WHEN 'BL-5D-001' THEN NEW.origin_image := 'catalog/custom/bl-5d-001_5day-balanced-plan.jpg';
+    WHEN 'FL-5D-001' THEN NEW.origin_image := 'catalog/custom/fl-5d-001_5day-fat-loss-plan.jpg';
+    -- Add-on products
+    WHEN 'ADD-BAR-001' THEN NEW.origin_image := 'catalog/custom/add-bar-001_protein-bar.jpg';
+    WHEN 'ADD-DRK-001' THEN NEW.origin_image := 'catalog/custom/add-drk-001_detox-drink.jpg';
+    WHEN 'ADD-NUT-001' THEN NEW.origin_image := 'catalog/custom/add-nut-001_snack-pack.jpg';
     ELSE NULL;  -- leave origin_image as-is for unknown SKUs
   END CASE;
 

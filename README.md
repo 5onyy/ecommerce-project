@@ -38,7 +38,7 @@ docker compose logs app --tail 100
 docker compose exec database psql -U postgres -d postgres -c "SELECT COUNT(*) AS products FROM product;"
 ```
 
-Expected: 30 products.
+Expected: 37 products (30 meal boxes + 4 bundles + 3 add-ons).
 
 ## Reset
 

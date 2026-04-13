@@ -23,5 +23,15 @@
     "name": "New Arrivals",
     "code": "new-arrivals",
     "description": [{"id":"r__new","columns":[{"size":1,"id":"c__new","data":{"time":1743984000000,"blocks":[{"id":"b__new","type":"paragraph","data":{"text":"Newest additions to the GoalBox menu — freshly added meal options across all goals."}}],"version":"2.31.0"}}],"size":1,"className":"md:grid-cols-1"}]
+  },
+  {
+    "name": "Weekly Bundles",
+    "code": "bundles",
+    "description": [{"id":"r__bnd","columns":[{"size":1,"id":"c__bnd","data":{"time":1743984000000,"blocks":[{"id":"b__bnd","type":"paragraph","data":{"text":"3-day and 5-day meal plan bundles — save 5% versus single-box pricing and qualify for free shipping automatically."}}],"version":"2.31.0"}}],"size":1,"className":"md:grid-cols-1"}]
+  },
+  {
+    "name": "Add-ons",
+    "code": "add-ons",
+    "description": [{"id":"r__adn","columns":[{"size":1,"id":"c__adn","data":{"time":1743984000000,"blocks":[{"id":"b__adn","type":"paragraph","data":{"text":"Protein bars, detox drinks, and healthy snack packs — pair any add-on with your meal box for a complete nutrition plan."}}],"version":"2.31.0"}}],"size":1,"className":"md:grid-cols-1"}]
   }
 ]
