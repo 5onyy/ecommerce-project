@@ -1,9 +1,6 @@
 services:
   app:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    image: goalbox-app:local
+    image: evershop/evershop:latest
     restart: always
     environment:
       DB_HOST: database
