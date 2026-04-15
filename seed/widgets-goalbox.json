@@ -49,9 +49,9 @@
       "slides": [
         {
           "id": "slide-1",
-          "image": "https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg",
-          "width": 2400,
-          "height": 1200,
+          "image": "/assets/catalog/custom/banner_1.jpg",
+          "width": 1920,
+          "height": 1280,
           "subText": "Goal-based meals ready in minutes with clear macros",
           "headline": "Eat for Results with GoalBox",
           "buttonLink": "/goalbox-meals",
@@ -60,9 +60,9 @@
         },
         {
           "id": "slide-2",
-          "image": "https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg",
-          "width": 2400,
-          "height": 1200,
+          "image": "/assets/catalog/custom/banner_2.jpg",
+          "width": 1920,
+          "height": 1280,
           "subText": "Fat Loss, Balanced, Muscle Gain - choose your nutrition goal",
           "headline": "Healthy Meals, Delivered Daily",
           "buttonLink": "/goalbox-meals",

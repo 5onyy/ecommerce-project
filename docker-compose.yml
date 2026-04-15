@@ -29,11 +29,14 @@ services:
       - ./seed/images/about-lifestyle-cta-goalbox-v2.jpg:/app/public/images/about-lifestyle-cta-goalbox-v2.jpg:ro
       - ./seed/images/branding:/app/public/images/branding:ro
       - ./seed/images/branding/goalbox-favicon-set.jpg:/app/public/favicon.ico:ro
+      - ./seed/images/branding/goalbox-store.css:/app/public/goalbox-store.css:ro
+      - ./seed/images/branding/goalbox-admin.css:/app/public/goalbox-admin.css:ro
+      - ./patches/modules/base/pages/admin/all/GlobalCss.js:/app/node_modules/@evershop/evershop/dist/modules/base/pages/admin/all/GlobalCss.js:ro
       # Patch EverShop migration to skip default Men/Women/Kids categories
-      - ./packages/evershop/dist/modules/catalog/migration/Version-1.0.0.js:/app/node_modules/@evershop/evershop/dist/modules/catalog/migration/Version-1.0.0.js:ro
+      - ./patches/modules/catalog/migration/Version-1.0.0.js:/app/node_modules/@evershop/evershop/dist/modules/catalog/migration/Version-1.0.0.js:ro
       # Admin product grid with GoalBox collection filter
-      - ./packages/evershop/dist/modules/catalog/pages/admin/productGrid/Grid.js:/app/node_modules/@evershop/evershop/dist/modules/catalog/pages/admin/productGrid/Grid.js:ro
-      - ./packages/evershop/dist/modules/catalog/services/registerDefaultProductCollectionFilters.js:/app/node_modules/@evershop/evershop/dist/modules/catalog/services/registerDefaultProductCollectionFilters.js:ro
+      - ./patches/modules/catalog/pages/admin/productGrid/Grid.js:/app/node_modules/@evershop/evershop/dist/modules/catalog/pages/admin/productGrid/Grid.js:ro
+      - ./patches/modules/catalog/services/registerDefaultProductCollectionFilters.js:/app/node_modules/@evershop/evershop/dist/modules/catalog/services/registerDefaultProductCollectionFilters.js:ro
 
   #The postgres database: 
   database:

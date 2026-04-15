@@ -51,7 +51,7 @@ export function registerDefaultValidators() {
               parseInt(coupon.max_uses_time_per_customer, 10)
             )
             .execute(pool);
-          if (flag) {
+          if (flag && flag.length > 0) {
             return false;
           }
         }

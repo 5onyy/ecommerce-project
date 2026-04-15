@@ -16,6 +16,10 @@
           "rel": "icon",
           "href": "/favicon.ico",
           "type": "image/x-icon"
+        },
+        {
+          "rel": "stylesheet",
+          "href": "/goalbox-store.css"
         }
       ],
       "metas": [],

@@ -1,0 +1,137 @@
+/* ==========================================================
+   GoalBox Brand Theme — Storefront Override
+   Injected via config/default.json → headTags.links
+   ========================================================== */
+
+/* Google Fonts — Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* ----------------------------------------------------------
+   1. CSS Variable Override (Tailwind v4 design tokens)
+      bg-primary / text-primary / ring / accent all pick
+      these up automatically via @theme inline mapping.
+   ---------------------------------------------------------- */
+:root {
+  /* GoalBox green — Emerald 500 */
+  --primary:            #10B981;
+  --primary-foreground: #ffffff;
+
+  /* Focus ring — Emerald 300 */
+  --ring:               #6EE7B7;
+
+  /* Hover accent background — Emerald 50 */
+  --accent:             #ECFDF5;
+  --accent-foreground:  #065F46;
+
+  /* Border — very light green tint */
+  --border:             #D1FAE5;
+  --divider:            #D1FAE5;
+
+  /* Font */
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Slightly rounder corners for a friendlier feel */
+  --radius: 0.5rem;
+}
+
+/* ----------------------------------------------------------
+   2. Typography
+   ---------------------------------------------------------- */
+body,
+input,
+select,
+textarea,
+button {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* ----------------------------------------------------------
+   3. Header — green bottom border as brand accent
+   ---------------------------------------------------------- */
+.header {
+  border-bottom: 2px solid #10B981 !important;
+}
+
+/* ----------------------------------------------------------
+   4. Buttons — ensure Add to Cart / Checkout use green
+      EverShop renders these with Tailwind bg-primary but
+      some legacy buttons use inline class="button primary".
+   ---------------------------------------------------------- */
+.button.primary,
+a.button.primary,
+button.button.primary {
+  background-color: #10B981 !important;
+  border-color:     #10B981 !important;
+  color:            #ffffff !important;
+}
+
+.button.primary:hover,
+a.button.primary:hover,
+button.button.primary:hover {
+  background-color: #059669 !important;
+  border-color:     #059669 !important;
+}
+
+/* ----------------------------------------------------------
+   5. Price — green to match brand
+   ---------------------------------------------------------- */
+.product-price,
+.price,
+[class*="price"] {
+  color: #059669;
+  font-weight: 600;
+}
+
+/* ----------------------------------------------------------
+   6. Cart icon badge
+   ---------------------------------------------------------- */
+.cart-count,
+[class*="cart-count"],
+[class*="cart_count"] {
+  background-color: #10B981 !important;
+  color: #ffffff !important;
+}
+
+/* ----------------------------------------------------------
+   7. Product card hover — subtle green shadow
+   ---------------------------------------------------------- */
+.product-card:hover,
+[class*="product-item"]:hover {
+  box-shadow: 0 4px 16px rgba(16, 185, 129, 0.15);
+  border-color: #A7F3D0;
+}
+
+/* ----------------------------------------------------------
+   8. "Start Your Plan" / CTA banner buttons
+      Slider buttons use inline style in widgets-goalbox.json
+      (buttonColor: #3a3a3a) — override to GoalBox green
+   ---------------------------------------------------------- */
+.slide__button a,
+.slide__button button,
+[class*="slide"] a[class*="button"],
+[class*="banner"] a[class*="button"] {
+  background-color: #10B981 !important;
+  border-color:     #10B981 !important;
+  color:            #ffffff !important;
+}
+
+.slide__button a:hover,
+.slide__button button:hover {
+  background-color: #059669 !important;
+}
+
+/* ----------------------------------------------------------
+   9. Checkout step indicators / progress — green active
+   ---------------------------------------------------------- */
+[class*="step"][class*="active"],
+[class*="checkout-step"][class*="active"] {
+  color: #10B981;
+  border-color: #10B981;
+}
+
+/* ----------------------------------------------------------
+   10. Footer — subtle green top border
+   ---------------------------------------------------------- */
+footer {
+  border-top: 2px solid #10B981;
+}

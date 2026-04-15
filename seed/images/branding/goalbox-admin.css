@@ -1,14 +1,100 @@
-/* Admin branding override */
-.admin .header .logo svg {
+/* ==========================================================
+   GoalBox Admin Brand Theme
+   Injected by packages/evershop/dist/modules/base/pages/admin/all/GlobalCss.js
+   ========================================================== */
+
+/* Google Fonts — Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* ----------------------------------------------------------
+   1. CSS Variable Override — same tokens as storefront
+   ---------------------------------------------------------- */
+:root {
+  --primary:            #10B981;
+  --primary-foreground: #ffffff;
+  --ring:               #6EE7B7;
+  --accent:             #ECFDF5;
+  --accent-foreground:  #065F46;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --radius: 0.5rem;
+
+  /* Sidebar — deep teal to match GoalBox brand */
+  --sidebar:                    #0F172A;
+  --sidebar-foreground:         #F1F5F9;
+  --sidebar-primary:            #10B981;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent:             #1E293B;
+  --sidebar-accent-foreground:  #94A3B8;
+  --sidebar-border:             #1E293B;
+  --sidebar-ring:               #10B981;
+}
+
+/* ----------------------------------------------------------
+   2. Typography
+   ---------------------------------------------------------- */
+body,
+input,
+select,
+textarea,
+button {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* ----------------------------------------------------------
+   3. Admin header logo — replace default icon with GoalBox logo
+   ---------------------------------------------------------- */
+.admin .logo svg {
   display: none !important;
 }
 
-.admin .header .logo a {
-  width: 34px !important;
-  height: 34px !important;
-  display: block !important;
-  background-image: url('/assets/images/branding/goalbox-icon-only.jpg');
+.admin .logo a::before {
+  content: '';
+  display: block;
+  width: 120px;
+  height: 32px;
+  background-image: url('/images/branding/goalbox-logo-mono-white.jpg');
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: left center;
+}
+
+/* ----------------------------------------------------------
+   4. Page title bar — green left border accent
+   ---------------------------------------------------------- */
+.admin h1,
+.admin .page-heading {
+  border-left: 3px solid #10B981;
+  padding-left: 0.75rem;
+}
+
+/* ----------------------------------------------------------
+   5. Sidebar nav — active item highlight
+   ---------------------------------------------------------- */
+.admin [class*="sidebar"] [aria-current="page"],
+.admin [class*="sidebar"] [data-active="true"] {
+  background-color: #10B981 !important;
+  color: #ffffff !important;
+}
+
+.admin [class*="sidebar"] a:hover {
+  background-color: #1E293B !important;
+  color: #10B981 !important;
+}
+
+/* ----------------------------------------------------------
+   6. Stats/metric cards — green top accent
+   ---------------------------------------------------------- */
+.admin [class*="card"]:has([class*="revenue"]),
+.admin [class*="card"]:has([class*="order"]) {
+  border-top: 3px solid #10B981;
+}
+
+/* ----------------------------------------------------------
+   7. Status badges — keep green for positive states
+   ---------------------------------------------------------- */
+.admin [class*="status"][class*="complete"],
+.admin [class*="status"][class*="paid"],
+.admin [class*="status"][class*="active"] {
+  background-color: #D1FAE5 !important;
+  color: #065F46 !important;
 }
